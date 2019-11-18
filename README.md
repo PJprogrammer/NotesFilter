@@ -6,7 +6,7 @@ My app is created to solve a problem that I faced on a daily basis in school. I 
 ## Demo
 Here is a link to a demo video of me displaying the differnt features and capabilities of my application.
 
-<a href="https://www.youtube.com/watch?v=OnVfff7dO9c" target="_blank"><img src="https://i9.ytimg.com/vi/OnVfff7dO9c/mq1.jpg?sqp=CKqFyO4F&rs=AOn4CLDAHfkAVUNo8pmy4HOk2qWrwrH6Dw" 
+<a href="https://www.youtube.com/watch?v=OnVfff7dO9c" target="_blank"><img src="preview_pic.jpg" 
 alt="IMAGE ALT TEXT HERE" border="3" /></a>
 
 ## Installation
