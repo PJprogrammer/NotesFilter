@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_microphone"
+        android:icon="@drawable/microphone"
+        android:title="Recording" />
+
+    <item
+        android:id="@+id/navigation_camera"
+        android:icon="@drawable/camera"
+        android:title="Camera" />
+
+
+    <item
+        android:id="@+id/navigation_memo"
+        android:icon="@drawable/memo"
+        android:title="Memo" />
+</menu>

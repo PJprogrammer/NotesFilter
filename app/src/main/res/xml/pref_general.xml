@@ -1,0 +1,29 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="coderboy19_switch"
+        android:summary="Some folders do not contain any files"
+        android:title="Show Empty Folders" />
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_display_name"
+        android:inputType="textCapWords"
+        android:key="coderboy19_text"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_display_name" />
+
+    <!--
+    <ListPreference
+        android:defaultValue="-1"
+        android:entries="@array/pref_coderboy19_list_titles"
+        android:entryValues="@array/pref_coderboy19_list_values"
+        android:key="coderboy19_list"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_add_friends_to_messages" />
+    -->
+</PreferenceScreen>

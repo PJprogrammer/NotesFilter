@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_background_curved"
+    >
+
+    <TextView
+        android:id="@+id/title_rename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="5dp"
+
+        android:text="Rename File:"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/fileName_selected"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:text="TextView" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="250dp"
+        android:layout_height="2dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#969696" />
+
+    <EditText
+        android:id="@+id/edit_file_name"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+
+        android:textCursorDrawable="@null"
+        android:backgroundTint="@color/colorPrimaryDark"
+
+        android:hint="Change to"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:maxLines="1" />
+
+    <Button
+        android:id="@+id/Btn_Ok3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="15dp"
+        android:layout_gravity="center_horizontal"
+
+        android:textColor="#000000"
+
+        android:text="Finish"
+        android:textAllCaps="false"
+        android:textSize="16sp" />
+</LinearLayout>
